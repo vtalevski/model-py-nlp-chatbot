@@ -1,0 +1,91 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hi",
+        "hey",
+        "hello",
+        "greetings",
+        "good day",
+        "what's up?",
+        "how is it going?"
+      ],
+      "responses": [
+        "Hey!",
+        "Hello!",
+        "What can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "ciao",
+        "cya",
+        "see ya",
+        "see you later",
+        "goodbye",
+        "i am leaving",
+        "have a good day"
+      ],
+      "responses": [
+        "Goodbye!",
+        "Talk to you later!",
+        "Sad to see you go :("
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "who are you?",
+        "what's your name?",
+        "what is your name?",
+        "what should i call you?",
+        "can you please tell me your name?"
+      ],
+      "responses": [
+        "My name is Viktor, but you can call me Vico!",
+        "I am Vico :)"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "age",
+        "how old?",
+        "how old are you?",
+        "how old is viktor?",
+        "what is your age?"
+      ],
+      "responses": [
+        "The developer that made me is 30 years old!",
+        "30 years of age!"
+      ]
+    },
+    {
+      "tag": "job",
+      "patterns": [
+        "what do you do?",
+        "what is your field of work?",
+        "what do you do professionally?"
+      ],
+      "responses": [
+        "We develop microservices in a distributed environment.",
+        "Spring Boot APIs."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "what are your hours?",
+        "what time are you open?",
+        "when are you guys open?",
+        "what are your hours of operation?"
+      ],
+      "responses": [
+        "We work from 9 AM to 5 PM from Monday to Friday!"
+      ]
+    }
+  ]
+}
